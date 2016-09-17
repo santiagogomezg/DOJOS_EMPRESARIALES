@@ -1,0 +1,15 @@
+<div class="jumbo">
+  <div class="right tomster"></div>
+  <h2>Bienvenido!</h2>
+  <p>
+  Un videojuego o juego de video es un juego electrónico en el que una o más personas interactúan, por medio de un controlador, con un dispositivo dotado de imágenes de vídeo.
+    <br>Revisa nuestra lista de Juegos.
+  </p>
+  {{#link-to 'juegos' class="button"}}
+    Sobre Nosotros
+  {{/link-to}}
+</div>
+{{#each model as |spyUnit|}}
+  {{spies-listing spy=spyUnit}}
+{{/each}}
+

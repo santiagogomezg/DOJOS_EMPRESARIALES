@@ -1,0 +1,20 @@
+<div class="container">
+  <div class="menu">
+    {{#link-to 'index'}}
+      <h1 class="left">
+        <em>Juegos UdeA </em>
+      </h1>
+    {{/link-to}}
+    <div class="left links">
+      {{#link-to 'shop'}}
+        Tienda
+      {{/link-to}}      
+      {{#link-to 'juegos'}}
+        Juegos
+      {{/link-to}}
+    </div>
+  </div>
+  <div class="body">
+    {{outlet}}
+  </div>
+</div>

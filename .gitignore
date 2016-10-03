@@ -3,6 +3,7 @@
 # dependencies
 Dojo React/react_app/node_modules
 Dojo Node.js/Rest/node_modules
+Dojo Node.js/Rest_Menu/node_modules
 
 
 # production
@@ -12,3 +13,4 @@ Dojo React/react_app/build
 .DS_Store
 Dojo React/react_app/npm-debug.log
 Dojo Node.js/Rest/npm-debug.log
+Dojo Node.js/Rest_Menu/npm-debug.log
